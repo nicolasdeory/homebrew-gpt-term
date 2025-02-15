@@ -1,14 +1,14 @@
 class GptTerm < Formula
   desc "CLI tool for GPT interactions in the terminal"
   homepage "https://github.com/nicolasdeory/claude-shell"
-  version "v1.0.4"
+  version "v1.1.0"
   
   if OS.mac?
-    url "https://github.com/nicolasdeory/claude-shell/releases/download/v1.0.4/gpt-term-darwin-amd64"
-    sha256 "0a76f73f6bdd1a5fbdaa1735693403185b712569dfcff485150b964d0b991ace"
+    url "https://github.com/nicolasdeory/claude-shell/releases/download/v1.1.0/gpt-term-darwin-amd64"
+    sha256 "78eeca88bdfb071280c17e664714ae594a19ad0b45aada8cf832513a1803aaa6"
   elsif OS.linux?
-    url "https://github.com/nicolasdeory/claude-shell/releases/download/v1.0.4/gpt-term-linux-amd64"
-    sha256 "0f006bc1301ff4d8a391d4948b1eeb6512107c4ebfe056d33794070767cf35f6"
+    url "https://github.com/nicolasdeory/claude-shell/releases/download/v1.1.0/gpt-term-linux-amd64"
+    sha256 "859d7b4b26f2e65b8b3aa00ffc7403152b1dd1106d39aa1165483012d6a79435"
   end
   
   def install
